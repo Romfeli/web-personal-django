@@ -1,0 +1,37 @@
+{% extends 'core/base.html' %}
+
+{% block title1 %}
+Acerca de
+{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg'%}{% endblock %}
+
+{% block headers %}
+<h1>Acerca de</h1>
+<span class="subheading">Biografía</span>
+
+{% endblock %}
+
+
+
+
+{% block content %}
+
+<div class="row">
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+            <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg'%}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+            <h2 class="section-heading">Romulo Felizola</h2>   
+            <p style="text-align: justify;">Hola, soy una alma aventurera que ha recorrido el mundo en busca de nuevas experiencias y oportunidades. Nací en Venezuela, donde el aroma del mar siempre me envolvía, despertando mi pasión por explorar horizontes desconocidos. Luego, mis pasos me llevaron a Panamá, donde culminé mis estudios universitarios y descubrí la riqueza de su cultura vibrante.
+
+            Mi siguiente destino fue Roma, una ciudad impregnada de historia y arte, donde me sumergí en la belleza de sus calles empedradas y me dejé llevar por la pasión italiana. Después de Roma, mi carrera profesional floreció en Barcelona, un lugar lleno de energía y vanguardia, donde expandí mis habilidades y conocimientos. <br>
+
+            Pero mi travesía no se detuvo allí, ya que también encontré en Brasil el amor de mi vida y un nuevo hogar para desarrollarme profesionalmente. Me fascinó la diversidad cultural y la vitalidad de sus paisajes exuberantes. Estos lugares han dejado huellas imborrables en mi corazón y han enriquecido mi perspectiva de vida.<br>
+
+            Ahora, con un bagaje lleno de experiencias y una mente abierta, estoy listo para enfrentar nuevos desafíos y sumergirme en cualquier proyecto que me permita seguir creciendo y aprendiendo. Mi pasión por la creatividad y la exploración continúa guiándome, y estoy emocionado de descubrir qué caminos fascinantes el futuro me depara</p>
+            
+      </div>
+</div>
+{% endblock %}
+
